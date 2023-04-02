@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+				<style type="text/css">
+					.mainBox{
+						margin:0px 10px;
+						width:400px;
+						height:400px;
+						position:relative;
+						background:#FF0000;
+					}
+					.sourceBox{
+						float:left;
+						width:100px;
+						height:100px;
+						position:relative;
+						background:#00FFFF;
+					}
+					.fixedBox{
+						z-index:10;
+						width:100px;
+						height:100px;
+						position:fixed;
+						right:50px;
+						top:500px;
+						background:#00FF00;
+					}
+				</style>
+		
 		<title>日记</title>
+		
 	</head>
 	<body>
+		
+		<div class="fixedBox"><a href="#top" target="_self"><img style="height: 100px; width: 100px;" src="img/cirno.gif" align="right" alt="" title="回到顶部~"></a>
+		</div> 
+		 
 		<div id="header" style="background-color:#FFFFFF;">
 			<font size="7"><center>我的日记</center></font></div>
 			<br>
